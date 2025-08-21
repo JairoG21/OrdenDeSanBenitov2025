@@ -499,6 +499,27 @@
           </a>
         </div>
       </div>
+      <!-- YouTube video grid placeholder -->
+      <div class="container my-5">
+        <h2 class="mb-4 text-center">
+          <a href="https://youtube.com/@ordendesanbenito9536?si=scpHnS6JOXX-YVC5" target="_blank" style="text-decoration:none; color:inherit;">
+            <i class="bi bi-youtube text-danger"></i> Latest Videos / Últimos Videos
+          </a>
+        </h2>
+        <div class="row" id="video-grid"></div>
+      </div>
+      <style>
+        .video-grid {
+          display: grid;
+          grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+          gap: 16px;
+          margin-top: 20px;
+        }
+        .video-grid iframe {
+          width: 100%;
+          aspect-ratio: 16 / 9;
+        }
+      </style>
       <!--offcanvas-->
       <div
         class="offcanvas offcanvas-end"
@@ -1338,6 +1359,7 @@
     <script src="assets/js/from-validation.js" crossorigin="anonymous"></script>
     <script src="assets/js/gen.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script>
+    <script src="assets/js/youtube-feed.js"></script>
     <script>
       const datoMotivo = document.querySelector("#datoMotivo");
       const mensajeMotivo = document.querySelector("#mensajeMotivo");
