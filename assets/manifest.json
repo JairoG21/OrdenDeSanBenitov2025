@@ -1,0 +1,23 @@
+{
+    "name": "Orden de San Benito",
+    "short_name": "OSBenito",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#620624",
+    "icons": [
+      {
+        "src": "/images/logosan.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/images/logosan.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "permissions": [
+        "https://api.ordendesanbenito.org"
+    ]
+  }

@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="author" content="Ordendesanbenito" />
+  <meta name="keywords"
+    content="Orden de San Benito, Catholic, Católica, Ayuda social, donar, misiones, Latinos, Ayuda, Orden, Noticias" />
+  <meta name="description"
+    content="Somos una orden católica en pro de ayudar a los más necesitados en Estados Unidos de América." />
+  <meta property="og:title" content="Orden de San Benito" data-dynamic="true" />
+  <meta property="og:site_name" content="Orden de San Benito" data-dynamic="true" />
+  <meta property="og:description"
+    content="Somos una orden católica en pro de ayudar a los más necesitados en Estados Unidos de América."
+    data-dynamic="true" />
+  <meta property="og:image:type" content="image/png" data-dynamic="true" />
+  <meta property="og:image:width" content="200" data-dynamic="true" />
+  <meta property="og:image:height" content="200" data-dynamic="true" />
+  <meta name="robots" content="all" />
+  <link rel="icon" type="image/x-icon" href="favicon.png" />
+  <title>La Orden de San Benito</title>
+  <link href="assets/css/bootstrap-v5-3.min.css" rel="stylesheet" />
+  <link href="assets/css/origen.css" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/a39f274e63.js"></script>
+  <script defer src="assets/js/utils.js"></script>
+  <script defer src="assets/js/alpinejs.min.js"></script>
+
+  <style>
+    .bible-verse {
+      line-height: 1.6;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      background-color: #eeeeee;
+    }
+
+    .bible-verse p {
+      text-align: justify;
+      text-justify: inter-word;
+    }
+  </style>
+</head>
+<!--******************************************************************************************************************************-->
+<!--******************************************************************************************************************************-->
+<!--******************************************************************************************************************************-->
+<!--******************************************************************************************************************************-->
+<!--***********************************************************BODY***************************************************************-->
+<!--******************************************************************************************************************************-->
+<!--******************************************************************************************************************************-->
+<!--******************************************************************************************************************************-->
+<!--******************************************************************************************************************************-->
+
+<body id="ancla">
+  <!--Header-->
+  <!--******************************************************************************************************************************-->
+  <!--******************************************************************************************************************************-->
+  <!--******************************************************************************************************************************-->
+  <!--***********************************************************HEADER***************************************************************-->
+  <!--******************************************************************************************************************************-->
+  <!--******************************************************************************************************************************-->
+  <!--******************************************************************************************************************************-->
+  <!--head header-->
+  <section class="header bg-body">
+    <!--head-->
+    <div class="container-fluid d-none d-lg-block head p-4">
+      <div class="row align-items-center">
+        <div class="col-2">
+          <a href="index.html" class="nav-link p-0">
+            <img src="assets/images/logo-orden-san-benito.png" alt="" class="img-fluid" />
+          </a>
+        </div>
+        <div class="col-3">
+          <div class="fs-1 text-center header-title fst-italic">
+            Ora et labora
+          </div>
+        </div>
+        <div class="col text-center">
+          <a title="Ofrecer una misa" type="button"
+            class="btn bg-btn-head color-btn-head fw-semibold fs-5 text-uppercase py-2 px-4" href="misa.html">
+            <i class="fa-solid fa-dove me-2"></i>Ofrecer una misa
+          </a>
+          <div class="btn-group">
+            <a title="Donar ahora" type="button"
+              class="btn btn-danger fw-semibold fs-5 py-2 px-4 text-uppercase btn-danger-donar" href="donacion.html">
+              <i class="fa-solid fa-hand-holding-dollar me-2"></i>Donar ahora
+            </a>
+          </div>
+        </div>
+        <div class="col-2 col-xl-2 col-md-1">
+          <div class="fw-semibold fs-5 d-flex align-items-center justify-content-center">
+            <i class="bi bi-globe me-2"></i>
+            <a href="#" class="link-underline link-underline-opacity-0 link-body-emphasis">EN</a>
+            <span class="fs-6 mx-1 text-secondary"> | </span>
+            <a href="#" class="link-underline link-underline-opacity-0 link-body-emphasis">ES</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Header-->
+  <header class="header sticky-top">
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg bg-menu px-2 border-top border-4 border-warning shadow-sm">
+      <div class="container-fluid justify-content-lg-center">
+        <a class="navbar-brand d-lg-none" href="index.html"><img src="assets/images/logo-orden-san-benito.png" alt=""
+            class="img-fluid" width="200" /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#off"
+          aria-controls="off" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="offcanvas-lg offcanvas-end" tabindex="-1" id="off" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header border-bottom">
+            <h5 class="offcanvas-title fw-bolder" id="offcanvasNavbarLabel">
+              Orden de San Benito
+            </h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"
+              data-bs-target="#off"></button>
+          </div>
+          <div class="offcanvas-body offcanvas__div p-0">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0 fw-semibold">
+              <li class="nav-item dropdown px-4 offcanvas-li">
+                <a class="nav-link dropdown-toggle color-head-menu" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  ¿Qué es la orden?
+                </a>
+                <ul class="dropdown-menu shadow m-lg-0 mx-2">
+                  <li>
+                    <a class="dropdown-item p-3" href="la-orden-benedictina-o-s-b.html">La Orden Benedictina
+                      (O.S.B.)</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item p-3" href="reglas-de-la-orden.html">Reglas de la orden</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item p-3" href="canons-de-la-orden.html">Canons de la orden</a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="nav-item px-4 offcanvas-li">
+                <a class="nav-link color-head-menu" href="sobre-nosotros.html">Sobre nosotros</a>
+              </li>
+
+              <li class="nav-item px-4 offcanvas-li">
+                <a class="nav-link color-head-menu" href="formacion-vocacional.html">Formación vocacional</a>
+              </li>
+
+              <li class="nav-item px-4 offcanvas-li">
+                <a class="nav-link color-head-menu" href="galeria.html">Galería</a>
+              </li>
+
+              <li class="nav-item px-4 offcanvas-li">
+                <a class="nav-link color-head-menu" href="blogs.html">Blogs</a>
+              </li>
+
+              <li class="nav-item px-4 offcanvas-li">
+                <span class="d-flex justify-content-between align-items-center">
+                  <a class="nav-link color-head-menu" href="tienda-online.html">
+                    <div>Tienda online</div>
+                  </a>
+                  <button type="button" class="btn text-white position-relative rounded-circle ms-2 py-0 btn-nv-shop"
+                    data-bs-toggle="offcanvas" data-bs-target="#offcanvasShop" aria-controls="offcanvasExample">
+                    <i class="bi bi-cart3"></i>
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                      0
+                      <span class="visually-hidden">unread messages</span>
+                    </span>
+                  </button>
+                </span>
+              </li>
+            </ul>
+          </div>
+          <div class="d-lg-none d-block p-4">
+            <small class="text-secondary">Copyright © 2024 | Orden de San Benito</small>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!--Btn donar mobile-->
+    <div class="d-lg-none d-flex">
+      <div class="w-100">
+        <a type="button" class="btn bg-btn-head color-btn-head fw-semibold fs-5 text-uppercase py-3 w-100 rounded-0"
+          href="misa.html">
+          <i class="fa-solid fa-dove"></i> Ofrecer misa
+        </a>
+      </div>
+      <div class="btn-group w-100 btn-group-border">
+        <a title="Donar Ahora" type="button"
+          class="btn btn-danger border-0 fw-semibold fs-5 py-3 text-uppercase btn-danger-donar rounded-0"
+          href="donacion.html">
+          <i class="fa-solid fa-hand-holding-dollar me-2"></i>Donar ahora
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!--Main-->
+  <!--******************************************************************************************************************************-->
+  <!--******************************************************************************************************************************-->
+  <!--******************************************************************************************************************************-->
+  <!--***********************************************************MAIN***************************************************************-->
+  <!--******************************************************************************************************************************-->
+  <!--******************************************************************************************************************************-->
+  <!--******************************************************************************************************************************-->
+  <main class="main" x-data>
+    <div class="container text-center my-5 pb-4 w-lg-65 w-sm-100">
+      <nav aria-label="breadcrumb">
+        <small>
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Donaciones</li>
+          </ol>
+        </small>
+      </nav>
+      <div class="text-start mb-5">
+        <h1 class="fw-bolder">Realiza tu donación</h1>
+        <div class="mt-4">
+
+          <!--**************************************************************************************************************************-->
+          <!--**************************************************************************************************************************-->
+          <!--**************************************************************************************************************************-->
+          <!--**************************************************FORMULARIO NORMAL*******************************************************-->
+          <!--**************************************************************************************************************************-->
+          <!--**************************************************************************************************************************-->
+          <!--**************************************************************************************************************************-->
+          <div class="row row-cols-1 row-cols-lg-1 row-cols-md-1 g-4">
+            <!--****************************************************************************************************************-->
+            <!--****************************************************************************************************************-->
+            <!--****************************************************************************************************************-->
+            <!--****************************************************************************************************************-->
+
+            <!--****************************************************MENSAJE RAMDOM**********************************************-->
+            <!--****************************************************************************************************************-->
+            <div class="col-lg-7 ocultar_contenido">
+
+              <!--***************************************************PASAJE BIBLICO*********************************************-->
+              <!--****************************************************************************************************************-->
+              <div class="card h-100 shadow-sm text-start rounded-4 overflow-hidden hover-card">
+                <img src="assets/images/cuba01.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <figure class="text-center pt-2 ">
+                    <blockquote class="blockquote">
+                      <p>"Las ovejas y las cabras."</p>
+                    </blockquote>
+                    <figcaption class="blockquote-footer">
+                      Mateo <cite title="Source Title">25:35 (NVI)</cite>
+                    </figcaption>
+                  </figure>
+                  <div class="bible-verse bg-body-secondary text-body-secondary">
+                    <!--<p><sup>34</sup>»Entonces dirá el Rey a los que estén a su derecha: “Vengan ustedes, a quienes mi Padre ha bendecido; reciban su herencia, el reino preparado para ustedes desde la creación del mundo.</p> -->
+                    <sup class="me-2">35</sup>Porque tuve hambre y ustedes me dieron de comer; tuve sed y me dieron de beber; fui
+                    forastero y me dieron alojamiento;
+                    <!--<sup>36</sup>necesité ropa y me vistieron; estuve enfermo y me atendieron; estuve en la cárcel y me visitaron”.</p> 
+                    <p><sup>37</sup>Y le contestarán los justos: “Señor, ¿cuándo te vimos hambriento y te alimentamos o sediento y te dimos de beber? 
+                      <sup>38</sup>¿Cuándo te vimos como forastero y te dimos alojamiento o necesitado de ropa y te vestimos? 
+                      <sup>39</sup>¿Cuándo te vimos enfermo o en la cárcel y te visitamos?”. </p>
+                    <p><sup>40</sup>El Rey les responderá: “Les aseguro que todo lo que hicieron por uno de mis hermanos, aun por el más pequeño, lo hicieron por mí”.</p>-->
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <!--****************************************************************************************************************-->
+            <!--****************************************************************************************************************-->
+            <!--****************************************************************************************************************-->
+            <!--****************************************************************************************************************-->
+            <div class="col-lg-5">
+              <div class="card h-100 shadow-sm text-start rounded-4 overflow-hidden hover-card biography ">
+
+                <!--**************************************************FORMULARIO MONTO***********************************************************-->
+                <div id="monto-container" class="d-flex flex-column" style="height: 100%;"
+                  x-show.important="($store.donacion.estatus==0)" x-transition>
+
+                  <div class="mt-3 px-4 d-flex justify-content-center align-items-center">
+
+                    <h3 class="fs-5 mb-0 align-middle" style="text-align: center;">
+                      <i class="fa-solid fa-hand-holding-dollar me-2 ico-donation"></i>Ingrese la cantidad a donar
+                    </h3>
+                  </div>
+                  <hr>
+
+                  <!--*******ESTO ES UNA BARRA DE PESTAÑA QUE SERA HABILITADA CUANDO FUNCIONE LAS SUSCRIPCIONES*******-->
+                  <!--<ul class="nav nav-pills nav-fill mb-3 bg-light biography__ul" role="tablist">
+                    <li class="nav-item ">
+                      <button
+                        class="nav-link rounded-0 border-primary text-secondary-emphasis fw-semibold fs-5 px-4 active"
+                        id="btn-donaruno-tab" data-bs-toggle="tab" data-bs-target="#div-donaruno" role="tab"
+                        aria-controls="div-donaruno" aria-selected="true"
+                        x-on:click="$store.donacion.setInTipoPago(true)"
+                        >Donar
+                        una vez
+                      </button>
+                    </li>
+
+                    <li class="nav-item ">
+                      <button class="nav-link rounded-0 border-primary text-secondary-emphasis fw-semibold fs-5 px-4"
+                        id="btn-donarmes-tab" data-bs-toggle="tab" data-bs-target="#div-donarmes" role="tab"
+                        aria-controls="div-donarmes" aria-selected="false"
+                        x-on:click="$store.donacion.setInTipoPago(false)">
+                        <i class="bi bi-balloon-heart-fill text-danger"></i>
+                        Por mes
+                      </button>
+                    </li>
+                  </ul>-->
+
+
+                  <!--****************************************************************************************************************-->
+                  <!--*****************************************************DONACIÓN UNICA*********************************************-->
+                  <!--****************************************************************************************************************-->
+
+                  <form class="needs-validation px-4" action="" novalidate id="formuna">
+                    <div class="d-flex flex-column grow-1 fixed-container " style="height: 100%;">
+
+                      <!--aqui estan los input radios-->
+                      <div class="mt-4 w-100">
+                        <div class="row g-2">
+                          <div class="col px-1">
+                            <input type="radio" class="btn-one-time-donation btn-check" name="options-base"
+                              id="radiomonto1" autocomplete="off" checked x-on:click="$store.donacion.setMonto(10)"
+                              value="10" x-model="$store.donacion.form.amount" />
+                            <label class="btn-one-time-donation btn border py-2 px-4 w-100 rounded-3"
+                              for="radiomonto1">$10</label>
+                          </div>
+                          <div class="col px-1">
+                            <input type="radio" class="btn-one-time-donation btn-check" name="options-base"
+                              id="radiomonto2" x-on:click="$store.donacion.setMonto(20)" autocomplete="off" value="20"
+                              x-model="$store.donacion.form.amount" />
+                            <label class="btn-one-time-donation btn border py-2 px-4 w-100 rounded-3"
+                              for="radiomonto2">$20</label>
+                          </div>
+                          <div class="col px-1">
+                            <input type="radio" class="btn-one-time-donation btn-check" name="options-base"
+                              id="radiomonto3" x-on:click="$store.donacion.setMonto(40)" autocomplete="off" value="40"
+                              x-model="$store.donacion.form.amount" />
+                            <label class="btn-one-time-donation btn border py-2 px-4 w-100 rounded-3"
+                              for="radiomonto3">$40</label>
+                          </div>
+
+                          <div class="col px-1">
+                            <input type="radio" class="btn-one-time-donation btn-check" name="options-base"
+                              id="radiomonto4" x-on:click="$store.donacion.setMonto(100)" autocomplete="off" value="100"
+                              x-model="$store.donacion.form.amount" />
+                            <label class="btn-one-time-donation btn border py-2 px-4 w-100 rounded-3"
+                              for="radiomonto4">$100</label>
+                          </div>
+                          <div class="col px-1">
+                            <input type="radio" class="btn-one-time-donation btn-check" name="options-base"
+                              id="radiomonto5" x-on:click="$store.donacion.setMonto(120)" autocomplete="off" value="120"
+                              x-model="$store.donacion.form.amount" />
+                            <label class="btn-one-time-donation btn border py-2 px-4 w-100 rounded-3"
+                              for="radiomonto5">$120</label>
+                          </div>
+                          <div class="col px-1">
+                            <input type="radio" class="btn-one-time-donation btn-check" name="options-base"
+                              id="radiomonto6" x-on:click="$store.donacion.setMonto(150)" autocomplete="off" value="150"
+                              x-model="$store.donacion.form.amount" />
+                            <label class="btn-one-time-donation btn border py-2 px-4 w-100 rounded-3"
+                              for="radiomonto6">$150</label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="mt-4">
+                        <div class="input-group mb-3">
+                          <span class="input-group-text bg-body fw-semibold text-secondary" id="basic-addon1">$</span>
+                          <input type="number" class="form-control p-2 input-otros-montos shadow-sm"
+                            :class="$store.donacion.form_error.amount!='' ? 'is-invalid': ''"
+                            placeholder="Otro montos..." aria-label="Otro montos..." aria-describedby="basic-addon1"
+                            x-model="$store.donacion.form.amount" required />
+                          <div id="error_name" class="invalid-feedback animated fadeIn" bis_skin_checked="1"
+                            x-text="$store.donacion.form_error.amount">
+                          </div>
+                        </div>
+                      </div>
+
+                      <!--****************************************************************************************************************-->
+
+                      <!--****************************************************************************************************************-->
+
+
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1"
+                          x-model="$store.donacion.form.in_open_dedication"
+                          x-on:click="$store.donacion.setOpenDedication()" />
+                        <label class="form-check-label" for="inlineCheckbox1"><small>Dedica esta
+                            donación</small></label>
+                      </div>
+                      <div class="mt-2" id="inputOculto">
+                        <input type="text" class="form-control shadow-sm input-otros-montos"
+                          id="exampleFormControlInput1" placeholder="Nombre del homenajeado"
+                          x-model="$store.donacion.form.dedication" />
+                      </div>
+                      <!--****************************************************************************************************************-->
+
+                      <!--****************************************************************************************************************-->
+
+
+                      <div class="mt-3">
+                        <div class="d-inline-flex mb-1">
+                          <a class="text-black" data-bs-toggle="collapse" href="#collapseExample" role="button"
+                            aria-expanded="false" aria-controls="collapseExample"
+                            x-on:click="$store.donacion.setOpenComment()">
+                            <small>Agregar comentario</small>
+                          </a>
+                        </div>
+                        <div class="collapse" id="collapseExample">
+                          <div class="card card-body shadow-sm">
+                            <textarea class="form-control input-otros-montos" id="exampleFormControlTextarea1" rows="3"
+                              placeholder="Escribe tu mensaje..." x-model="$store.donacion.form.comment"></textarea>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </form>
+
+                  <div class="px-4 mt-4" id="div-alerta-inicio">
+                  </div>
+
+
+                  <div class="mb-4 px-4 d-flex align-items-end" style="height: 100%;">
+                    <button type="button" class="btn btn-san fw-semibold py-2 w-100"
+                      x-on:click="$store.donacion.goToNextForm(1)" x-bind:disabled="$store.donacion.getDisable()">
+                      <div class="spinner-border spinner-border-sm " role="status" x-show="$store.donacion.in_loading">
+                        <span class="visually-hidden">Loading...</span>
+                      </div>
+                      &nbsp;
+                      Donar
+                    </button>
+
+                  </div>
+                </div>
+                <!--******************************************************************************************************************************-->
+                <!--******************************************************************************************************************************-->
+                <!--******************************************************************************************************************************-->
+                <!--**************************************************FORMULARIO INFORMACION******************************************************-->
+                <!--******************************************************************************************************************************-->
+                <!--******************************************************************************************************************************-->
+                <!--******************************************************************************************************************************-->
+                <div id="donante-container" class="d-flex flex-column" style="height: 100%;"
+                  x-show.important="($store.donacion.estatus==1)" x-transition>
+
+
+                  <div class="mt-3 px-4 d-flex justify-content-between align-items-center">
+                    <button type="button" class="btn btn-light btn-sm" x-on:click="$store.donacion.estatus=0">
+                      <i class="fa fa-arrow-left"></i>
+                    </button>
+                    <h3 class="fs-5 mb-0 align-middle" style="text-align: center;">
+                      Ingrese tus datos
+                    </h3>
+                    <div style="width: 20px;"></div>
+                  </div>
+
+
+                  <hr>
+
+                  <div class="mt-3 px-4">
+                    <form class="needs-validation" action="" id="formdos">
+                      <div class="mb-3">
+                        <input type="text" class="form-control mb-1" id="tx_nombre" placeholder="Nombre..."
+                          x-model="$store.donacion.form.name"
+                          :class="$store.donacion.form_error.name!='' ? 'is-invalid': ''" required />
+                        <div id="error_name" class="invalid-feedback animated fadeIn" bis_skin_checked="1"
+                          x-text="$store.donacion.form_error.name">
+                        </div>
+
+                        <!--****************************************************************************************************************-->
+
+                        <!--****************************************************************************************************************-->
+                        <input type="text" class="form-control" id="tx_apellido" placeholder="Apellido..."
+                          x-model="$store.donacion.form.last_name" />
+                      </div>
+                      <div class="mb-3">
+                      </div>
+                      <!--****************************************************************************************************************-->
+
+                      <!--****************************************************************************************************************-->
+                      <div class="mb-3">
+                        <input type="text" class="form-control" id="tx_correo" placeholder="Correo electrónico..."
+                          x-model="$store.donacion.form.email"
+                          :class="$store.donacion.form_error.email!='' ? 'is-invalid': ''" required />
+                        <div id="error_email" class="invalid-feedback animated fadeIn" bis_skin_checked="1"
+                          x-text="$store.donacion.form_error.email">
+                        </div>
+                      </div>
+
+                      <!--****************************************************************************************************************-->
+
+                      <!--****************************************************************************************************************-->
+
+                      <div class="mb-3 form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option1"
+                          x-on:click="$store.donacion.setOpenOrganization()" />
+                        <label class="form-check-label" for="inlineCheckbox2">
+                          <small>Donar como organización</small>
+                        </label>
+                      </div>
+                      <div class="mb-3" id="inputOculto2">
+                        <input type="text" class="form-control shadow-sm input-otros-montos"
+                          id="exampleFormControlInput2" placeholder="Nombre de la organización"
+                          x-model="$store.donacion.form.organization" />
+                      </div>
+
+                    </form>
+
+
+                  </div>
+                  <div class="px-4 mt-4" id="div-alerta">
+
+                  </div>
+                  <div class="mb-4 px-4 d-flex align-items-end" style="height: 100%;">
+
+                    <button type="button" class="btn btn-san fw-semibold py-2 w-100"
+                      x-on:click="$store.donacion.goToNextForm(2)">
+                      <div class="d-flex justify-content-center align-items-center">
+                        Continuar
+                      </div>
+
+                    </button>
+
+                  </div>
+
+                </div>
+
+
+                <!--******************************************************************************************************************************-->
+                <!--******************************************************************************************************************************-->
+                <!--******************************************************************************************************************************-->
+                <!--**************************************************FORMULARIO FEE******************************************************-->
+                <!--******************************************************************************************************************************-->
+                <!--******************************************************************************************************************************-->
+                <!--******************************************************************************************************************************-->
+
+                <div id="fee-container" class="d-flex flex-column" style="height: 100%;"
+                  x-show.important="($store.donacion.estatus==2)" x-transition>
+
+
+                  <div class="mt-3 px-4 d-flex justify-content-between align-items-center">
+                    <button type="button" class="btn btn-light btn-sm" x-on:click="$store.donacion.estatus=1">
+                      <i class="fa fa-arrow-left"></i>
+                    </button>
+                    <h3 class="fs-5 mb-0 align-middle" style="text-align: center;">
+                      Estás donando
+                    </h3>
+                    <div style="width: 20px;"></div>
+                  </div>
+
+                  <hr>
+                  <div class="mt-4 d-flex justify-content-center">
+                    <h3 class="align-middle" style="text-align: center;"
+                      x-text="$store.donacion.getPrecioTotal().toString()+'$'"></h3>
+                  </div>
+
+                  <div class="mt-4">
+                    <button type="button" :class="$store.donacion.form.in_fee? 'boton-fee-pressed': 'boton-fee'"
+                      x-on:click="$store.donacion.form.in_fee=!$store.donacion.form.in_fee">
+                      <div class="d-flex justify-content-around align-items-center px-4">
+                        <i :class="$store.donacion.form.in_fee? 'fa fa-square-check': 'far fa-square'"></i>
+                        Cubrir los gastos de la transacción
+                        <i :class="$store.donacion.form.in_fee? 'fa fa-circle-question': 'far fa-circle-question'"></i>
+                      </div>
+                    </button>
+                  </div>
+
+
+
+                  <div class="mt-4 px-4" x-show="!$store.donacion.form.in_fee" x-transaction>
+                    <div class="card shadow-sm text-start rounded-4 overflow-hidden hover-card bg-warning-subtle text-warning-emphasis ">
+                      <p class="mt-2 px-4">
+                        ¿Te gustaría cubrir los gastos de transacción para que recibamos el <span
+                          class="fw-semibold">100%</span> de tu donación?
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="mt-4 px-4" x-show="$store.donacion.form.in_fee" x-transaction>
+                    <div class="card shadow-sm text-start rounded-4 overflow-hidden hover-card bg-success-subtle text-success-emphasis">
+                      <p class="mt-2 px-4">
+                        Gracias por tu generosidad al cubrir con el coste de la transacción de
+                        <strong x-text="$store.donacion.getFee()"></strong><span class="fw-bolder">$</span>
+                      </p>
+                    </div>
+                  </div>
+
+
+
+                  <div class="px-4 mt-4" id="div-alerta-fee">
+                  </div>
+
+                  <div class="mt-4 px-4 d-flex align-items-end">
+
+                    <button type="button" class="btn btn-san fw-semibold py-2 w-100"
+                      x-on:click="$store.donacion.HandleRequest()" x-bind:disabled="$store.donacion.in_loading">
+                      <div class="d-flex justify-content-center align-items-center">
+                        <div class="spinner-border spinner-border-sm " role="status"
+                          x-show="$store.donacion.in_loading">
+                          <span class="visually-hidden">Loading...</span>
+                        </div>
+                        &nbsp;
+                        Continuar
+                      </div>
+                    </button>
+
+                  </div>
+                </div>
+
+
+
+                <!--******************************************************************************************************************************-->
+                <!--******************************************************************************************************************************-->
+                <!--******************************************************************************************************************************-->
+                <!--**************************************************FORMULARIO STRIPE***********************************************************-->
+                <!--******************************************************************************************************************************-->
+                <!--******************************************************************************************************************************-->
+                <!--******************************************************************************************************************************-->
+                <div id="stripe-container" class="d-flex flex-column" style="height: 100%;"
+                  x-show.important="($store.donacion.estatus==3)" x-transition>
+                  <div class="mt-3 px-4 d-flex justify-content-between align-items-center">
+                    <button type="button" class="btn btn-light btn-sm"
+                      x-on:click="$store.donacion.HandleRequestCancel()">
+                      <i class="fa fa-arrow-left"></i>
+                    </button>
+                    <h3 class="fs-5 mb-0 align-middle" style="text-align: center;">
+                      Ingrese tus datos de pago
+                    </h3>
+                    <div style="width: 20px;"></div>
+                  </div>
+                  <hr>
+
+                  <div class="mt-3 px-4 d-flex justify-content-center align-items-center">
+                    <h3 class="mb-0 align-middle" style="text-align: center;">
+                      Estas donando <strong x-text="$store.donacion.getPrecioTotal().toString()+'$'"></strong>
+                    </h3>
+                    </h3>
+                  </div>
+
+                  <form id="payment-form" class="px-4 mt-4">
+                    <div id="payment-element">
+                      <!-- A Stripe Element will be inserted here. -->
+                    </div>
+                    <div class="mt-4" id="payment-errors" role="alert"></div>
+
+                    <button id="submit" class="btn btn-primary fw-semibold py-2 w-100 mt-4"
+                      x-bind:disabled="$store.donacion.in_loading">
+                      <div class="d-flex justify-content-center align-items-center">
+                        <div class="spinner-border spinner-border-sm " role="status"
+                          x-show="$store.donacion.in_loading">
+                          <span class="visually-hidden">Loading...</span>
+                        </div>
+                        &nbsp;
+                        Procesar
+                      </div>
+                    </button>
+
+
+                  </form>
+                  <div class="px-4 mt-4">
+
+                  </div>
+
+                </div>
+
+
+                <!--******************************************************************************************************************************-->
+                <!--******************************************************************************************************************************-->
+                <!--******************************************************************************************************************************-->
+                <!--**************************************************PAGINA SUCCESS***********************************************************-->
+                <!--******************************************************************************************************************************-->
+                <!--******************************************************************************************************************************-->
+                <!--******************************************************************************************************************************-->
+                <div id="success-container" class="d-flex flex-column" style="height: 100%;"
+                  x-show.important="($store.donacion.estatus==4)" x-transition>
+                  <div class="row d-flex justify-content-center mt-4 px-4">
+                    <i class="fa fa-fw fa-circle-check text-success text-center" style="font-size: 200px;"></i>
+                  </div>
+
+                  <div class="row d-flex justify-content-center mt-4 px-4">
+                    <h3 class="mb-0 align-middle" style="text-align: center; color:#2d9b68;">
+                      Felicidades
+                    </h3>
+                    <h3 class="fs-5 mb-0 align-middle" style="text-align: center;">
+                      Su donación ha sido realizada satisfactoriamente
+                    </h3>
+                  </div>
+
+                  <div class="mt-4 px-4">
+                    <button type="button" class="btn btn-san fw-semibold py-2 w-100"
+                      x-on:click="$store.donacion.vaciarFormularioPago()">
+                      Volver
+                    </button>
+                  </div>
+
+
+
+
+                </div>
+
+
+
+
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+     <!--offcanvas-->
+     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasShop" aria-labelledby="offcanvasExampleLabel">
+      <div class="offcanvas-header border-bottom">
+        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Carrito</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body text-center">
+        <small class="fw-bolder text-secondary opacity-50">Vacío</small>
+      </div>
+      <div class="d-flex justify-content-between align-items-center p-3 border-top fw-bolder fs-4">
+        <div class="">Total</div>
+        <div>$0</div>
+      </div>
+      <button type="button" class="btn btn-san rounded-0 py-3 fw-semibold">
+        Proceder al pago
+      </button>
+    </div>
+  </main>
+<!--whatsapp-->
+    <div class="position-relative">
+      <div class="support-button rounded-3 z-3">
+        <a href="https://wa.link/i6rbtx" title="Whatsapp"><i class="bi bi-whatsapp"></i></a>
+      </div>
+    </div>
+  <!--ancla-->
+  <a class="nav-link ankla text-white fw-bolder p-0 z-3 bg-ancla rounded-3" id="buttonUp" href="#ancla">
+    <div class="w-ancla d-flex justify-content-center align-items-center">
+      <i class="fa-solid fa-turn-up"></i>
+    </div>
+  </a>
+
+
+  <!--Footer-->
+  <!--******************************************************************************************************************************-->
+  <!--******************************************************************************************************************************-->
+  <!--******************************************************************************************************************************-->
+  <!--***********************************************************FOOTER*************************************************************-->
+  <!--******************************************************************************************************************************-->
+  <!--******************************************************************************************************************************-->
+  <!--******************************************************************************************************************************-->
+  <footer class="footer user-select-none">
+    <div class="content-footer pt-5">
+      <div class="container fs-2 text-center mb-5 lh-sm display-6">
+        Gracias por tu generosidad. ¿tiene problemas para donar?
+        <a type="button" href="donacion.html" target="_blank" class="link-offset-3 h3 text-pattern"><i
+            class="bi bi-balloon-heart-fill text-head-footer"></i> Haga clic
+          aquí para donar</a>
+        o llame al
+        <a href="tel:+13058053361" target="_blank" class="link-offset-3 h3">+1 (305) 805-3361</a>.
+      </div>
+      <hr />
+      <div class="container pt-3 pb-5">
+        <div class="row">
+          <div class="col-lg p-0 px-lg-2">
+            <div class="mb-3 fw-bolder fs-5 footer__title">
+              <div class="d-flex align-items-center justify-content-between">
+                <div>Social</div>
+                <div class="d-lg-none">
+                  <i class="bi bi-chevron-down"></i>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex align-items-center footer__title">
+              <div class="me-3">
+                <a href="https://x.com/" class="nav-link fs-5" target="_blank">
+                  <i class="bi bi-twitter-x"></i>
+                </a>
+              </div>
+              <div class="me-3">
+                <a href="https://www.facebook.com/profile.php?id=61560438929528" class="nav-link fs-5" target="_blank">
+                  <i class="bi bi-facebook"></i>
+                </a>
+              </div>
+              <div class="me-3">
+                <a href="https://www.instagram.com/ordendesanbenitooficial/" class="nav-link fs-5" target="_blank">
+                  <i class="bi bi-instagram"></i>
+                </a>
+              </div>
+              <div class="me-3">
+                <a href="https://www.youtube.com/@ordendesanbenito9536" class="nav-link fs-5" target="_blank">
+                  <i class="bi bi-youtube"></i>
+                </a>
+              </div>
+            </div>
+            <div class="p-lg-0 p-2">
+              <img class="img-fluid w-50 mt-3 qr" src="assets/images/qr-orden-de-san-benito.jpeg" alt="" />
+            </div>
+          </div>
+          <div class="col-lg p-0 px-lg-2">
+            <hr class="d-lg-none" />
+            <div class="mb-3 fw-bolder fs-5 footer__title">
+              <div class="d-flex align-items-center justify-content-between">
+                <div>Nuestro ministerio</div>
+                <div class="d-lg-none">
+                  <i class="bi bi-chevron-down"></i>
+                </div>
+              </div>
+            </div>
+            <ul class="nav flex-column footer__title">
+              <li class="nav-item">
+                <a href="sobre-nosotros.html#pills-Creemos-tab" class="nav-link ps-0">Lo que creemos</a>
+              </li>
+              <li class="nav-item">
+                <a href="sobre-nosotros.html" class="nav-link ps-0">Sobre nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a href="formacion-vocacional.html" class="nav-link ps-0">Formación vocacional</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg p-0 px-lg-2">
+            <hr class="d-lg-none" />
+            <div class="mb-3 fw-bolder fs-5 footer__title">
+              <div class="d-flex align-items-center justify-content-between">
+                <div>Eventos y ayudas</div>
+                <div class="d-lg-none">
+                  <i class="bi bi-chevron-down"></i>
+                </div>
+              </div>
+            </div>
+            <ul class="nav flex-column footer__title">
+              <li class="nav-item">
+                <a href="misiones.html" class="nav-link ps-0">Nuestras misiones</a>
+              </li>
+              <li class="nav-item">
+                <a href="misas.html" class="nav-link ps-0">Nuestras misas</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg p-0 px-lg-2">
+            <hr class="d-lg-none" />
+            <div class="mb-3 fw-bolder fs-5 footer__title">
+              <div class="d-flex align-items-center justify-content-between">
+                <div>Mi biblioteca</div>
+                <div class="d-lg-none">
+                  <i class="bi bi-chevron-down"></i>
+                </div>
+              </div>
+            </div>
+            <ul class="nav flex-column footer__title">
+              <li class="nav-item">
+                <a href="la-orden-benedictina-o-s-b.html" class="nav-link ps-0">La Orden Benedictina</a>
+              </li>
+              <li class="nav-item">
+                <a href="reglas-de-la-orden.html" class="nav-link ps-0">Reglas de la orden</a>
+              </li>
+              <li class="nav-item">
+                <a href="canons-de-la-orden.html" class="nav-link ps-0">Canons de la orden</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg p-0 px-lg-2">
+            <hr class="d-lg-none" />
+            <div class="mb-3 fw-bolder fs-5 footer__title">
+              <div class="d-flex align-items-center justify-content-between">
+                <div>Contáctanos</div>
+                <div class="d-lg-none">
+                  <i class="bi bi-chevron-down"></i>
+                </div>
+              </div>
+            </div>
+            <ul class="nav flex-column footer__title">
+              <li class="nav-item">
+                <a target="_blank" href="mailto:inggcarlos@gmail.com" class="nav-link ps-0">Email</a>
+              </li>
+              <li class="nav-item">
+                <a target="_blank" href="tel:+13058053361" class="nav-link ps-0">Llamanos</a>
+              </li>
+              <li class="nav-item">
+                <a target="_blank" href="https://wa.link/jlus63" class="nav-link ps-0">Whatsapp</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="sub-footer text-center p-3 fs-8">
+      <small>Copyright © 2024 | Orden de San Benito</small>
+    </div>
+  </footer>
+
+
+
+
+  <!--******************************************************************************************************************************-->
+  <!--******************************************************************************************************************************-->
+  <!--******************************************************************************************************************************-->
+  <!--***********************************************************ZONA JAVASCRIPT****************************************************-->
+  <!--******************************************************************************************************************************-->
+  <!--******************************************************************************************************************************-->
+  <!--******************************************************************************************************************************-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="assets/js/bootstrap.bundle.v5-3min.js"></script>
+  <script src="assets/js/from-validation.js"></script>
+  <script src="assets/js/gen.js"></script>
+
+  <script>
+    const datoMotivo = document.querySelector("#datoMotivo");
+    const mensajeMotivo = document.querySelector("#mensajeMotivo");
+    const btnEnviar = document.querySelector("#btnEnviar");
+
+    var mensaje;
+    function enviar_2() {
+      console.log("paso");
+      mensaje = ` https://api.whatsapp.com/send?phone=580000000000&text=${datoMotivo.value}:%20${mensajeMotivo.value}`;
+      btnEnviar.href = mensaje;
+    }
+  </script>
+  <script src="https://js.stripe.com/v3/"></script>
+
+  <!--******************************************************************************************************************************-->
+  <!--******************************************************************************************************************************-->
+  <!--************************************************ZONA JAVASCRIPT DESARROLLO****************************************************-->
+  <!--******************************************************************************************************************************-->
+  <!--******************************************************************************************************************************-->
+ <script>
+    console.log("se inicio")
+    $( document ).ready(function() {
+    console.log( "ready!" );
+    });
+  </script> 
+ <script src="assets/js/donacion.js"></script>
+
+
+
+</body>
+
+</html>
